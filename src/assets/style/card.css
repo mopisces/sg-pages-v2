@@ -1,0 +1,67 @@
+.card-container{
+	margin: 0 0.5rem;
+	
+}
+
+.card-detail{
+	font-size: 0.8rem;
+	width: calc(100%);
+	height:calc(100% - 146px);
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: .5rem .5rem ;
+    border-radius: 0.35rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 0.35rem #efefef;
+    position: relative;
+    overflow:hidden; 
+    zoom:1;
+}
+
+.card-info {
+	overflow: hidden;
+	word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.oblique-sign-up,
+.oblique-sign-down {
+    height: 2rem;
+    width: 5rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: -1.5rem;
+}
+.oblique-sign-up {
+    background-color: #ff4500;
+}
+.oblique-sign-down {
+    background-color: #6495ed;
+}
+
+.bg-color-odd {
+    background-color: #fff;
+}
+.bg-color-even {
+    background-color: #f5f7fa;
+}
+
+.text-color {
+	color: #1da02b;
+}
+
